@@ -2,7 +2,8 @@
 Цель задания: научиться использовать линтер flake8 для автоматической проверки качества кода в процессе Continuous Integration.
 
 Для задания выбрана модель определения эмоционального окраса текста
-Для запуска в 1-м терминале запускаем команду для запуска сервера Uvicorn: uvicorn Api:app
+Для запуска в 1-м терминал
+е запускаем команду для запуска сервера Uvicorn: uvicorn Api:app
 
 Во 2-м терминале работаем с моделью посредством curl запроса:
 curl -X 'POST' 'http://127.0.0.1:8000/predict/' -H 'Content-Type: application/json' -d '{ "text": "It was a wonderful journey. We have visited many beautiful places and seen many sightings! I am happy!" }'
@@ -27,3 +28,5 @@ curl -X 'POST' 'http://127.0.0.1:8000/predict/' -H 'Content-Type: application/js
  - Ильиных Виктория
  - Шабанов Дмитрий
  - Воробьев Василий
+ - Прохорова Екатерина
+ - Егоренкова Татьяна
