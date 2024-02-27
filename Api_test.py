@@ -3,6 +3,7 @@
 from fastapi.testclient import TestClient
 from Api import app                        # импорт приложения из App.py
 
+
 client = TestClient(app)
 
 
