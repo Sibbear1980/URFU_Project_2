@@ -16,7 +16,7 @@ result = ["нейтральный", "позитивный :)", "негативн
 @app.post("/predict/")  # адрес для вызова модели методом post
 # функция для расчета модели
 # в "input" передаётся текст
-def predict(input: dict):
+def predict(input: dict) -> dict:
     inputs = tokenizer(
         input["text"],
         max_length=512,
